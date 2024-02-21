@@ -2,7 +2,7 @@
     "builds": [
       {
         "src": "JLP_MyRide/wsgi.py",
-        "use": "@vercel/python3.8"
+        "use": "@vercel/python"
       }
     ],
     "routes": [

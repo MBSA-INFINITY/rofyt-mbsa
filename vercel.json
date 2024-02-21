@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "JLP_MyRide/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "JLP_MyRide/wsgi.py"
+      }
+    ]
+}

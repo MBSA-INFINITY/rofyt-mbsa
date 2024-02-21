@@ -2,8 +2,7 @@
     "builds": [
       {
         "src": "JLP_MyRide/wsgi.py",
-        "use": "@vercel/python",
-        "config":{"runtime":"python3.8","maxDuration": 120}
+        "use": "@vercel/python3.8"
       }
     ],
     "routes": [
